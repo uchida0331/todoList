@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ACB7917823BDACDC00C3BA94 /* todoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB7917823BDACDC00C3BA94 /* TODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB7917B23BDACDC00C3BA94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB7917D23BDACDC00C3BA94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ACB7917F23BDACDC00C3BA94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +24,8 @@
 		ACB7918423BDACDF00C3BA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACB7918723BDACDF00C3BA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACB7918923BDACE000C3BA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB7919023BDCC7B00C3BA94 /* azuki.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = azuki.ttf; sourceTree = "<group>"; };
+		ACB7919223BDCD1E00C3BA94 /* TanukiMagic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TanukiMagic.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		ACB7917923BDACDC00C3BA94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACB7917823BDACDC00C3BA94 /* todoList.app */,
+				ACB7917823BDACDC00C3BA94 /* TODO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +65,8 @@
 				ACB7918423BDACDF00C3BA94 /* Assets.xcassets */,
 				ACB7918623BDACDF00C3BA94 /* LaunchScreen.storyboard */,
 				ACB7918923BDACE000C3BA94 /* Info.plist */,
+				ACB7919223BDCD1E00C3BA94 /* TanukiMagic.ttf */,
+				ACB7919023BDCC7B00C3BA94 /* azuki.ttf */,
 			);
 			path = todoList;
 			sourceTree = "<group>";
@@ -84,7 +88,7 @@
 			);
 			name = todoList;
 			productName = todoList;
-			productReference = ACB7917823BDACDC00C3BA94 /* todoList.app */;
+			productReference = ACB7917823BDACDC00C3BA94 /* TODO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -291,10 +295,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuta.todoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuta.todoList2020;
+				PRODUCT_NAME = TODO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,10 +313,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuta.todoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuta.todoList2020;
+				PRODUCT_NAME = TODO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
