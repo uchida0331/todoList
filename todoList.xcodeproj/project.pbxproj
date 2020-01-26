@@ -25,7 +25,6 @@
 		ACB7918723BDACDF00C3BA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACB7918923BDACE000C3BA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACB7919023BDCC7B00C3BA94 /* azuki.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = azuki.ttf; sourceTree = "<group>"; };
-		ACB7919223BDCD1E00C3BA94 /* TanukiMagic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TanukiMagic.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +64,6 @@
 				ACB7918423BDACDF00C3BA94 /* Assets.xcassets */,
 				ACB7918623BDACDF00C3BA94 /* LaunchScreen.storyboard */,
 				ACB7918923BDACE000C3BA94 /* Info.plist */,
-				ACB7919223BDCD1E00C3BA94 /* TanukiMagic.ttf */,
 				ACB7919023BDCC7B00C3BA94 /* azuki.ttf */,
 			);
 			path = todoList;
